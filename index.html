@@ -1,0 +1,18 @@
+---
+layout: default
+title: open-source, webdev, sysadm and related stuff
+---
+
+{% for post in site.posts %}
+  <article class="post preview">
+    <header>
+      <h1>{{ post.title }}</h1>
+    </header>
+    <section>
+      {{ post.content | strip_html | truncatewords: 25 }}
+    </section>
+    <footer>
+      <a href="{{ post.url }}">Read More &raquo;</a>
+    </footer>
+  </article>
+{% endfor %}

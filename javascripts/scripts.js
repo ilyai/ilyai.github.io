@@ -1,0 +1,1 @@
+!function(t){function a(a){var o=a.data("mailto").split(","),r="mailto:"+t.map(o,function(t){return String.fromCharCode(t)}).join("");a.attr("href",r).removeAttr("data-mailto")}t(function(){a(t("p.copyright a"))})}(jQuery);
