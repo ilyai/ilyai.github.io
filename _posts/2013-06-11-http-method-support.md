@@ -11,9 +11,31 @@ methods using Node.js and run it in all major browsers.
  
 {% gist 5798712 %}
 
-* Chrome - All
-* Firefox - All
-* IE9 - All
-* IE8 - All, except PATCH
-* IE7 - All, except PATCH
-* IE6 - All
+Running test yielded these results:
+
+<table>
+  <tr>
+    <td>Chrome</td>
+    <td>OK</td>
+  </tr>
+  <tr>
+    <td>Firefox</td>
+    <td>OK</td>
+  </tr>
+  <tr>
+    <td>IE9</td>
+    <td>OK</td>
+  </tr>
+  <tr>
+    <td>IE8</td>
+    <td>OK, except PATCH</td>
+  </tr>
+  <tr>
+    <td>IE7</td>
+    <td>OK, except PATCH</td>
+  </tr>
+  <tr>
+    <td>IE6</td>
+    <td>OK</td>
+  </tr>
+</table>
