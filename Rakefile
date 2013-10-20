@@ -1,5 +1,5 @@
-styles = "public/stylesheets"
-scripts = "public/javascripts"
+styles = "stylesheets"
+scripts = "javascripts"
 
 task :watch do
   puts "Watching Sass..."
