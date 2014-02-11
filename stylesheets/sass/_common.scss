@@ -2,6 +2,9 @@
 // Common Styles
 //
 
+@import "bourbon/bourbon"; // or "bourbon" when in Rails
+@import "neat/neat-helpers"; // or "neat-helpers" when in Rails
+
 // $visual-grid: true;
 // $visual-grid-color: tomato;
 // $column: 5em;
@@ -9,15 +12,12 @@
 $grid-columns: 12;
 $max-width: em(1088);
 
-@import "bourbon/bourbon";
-@import "neat/neat";
-@import "neat/neat-helpers";
+$hdtv: new-breakpoint(min-width 900px 12);
+$desktop: new-breakpoint(min-width 960px 12);
+$tablet: new-breakpoint(min-width 880px 12);
+$mobile: new-breakpoint(min-width 460px 12);
 
-
-$hdtv: new-breakpoint(min-width 1200px 12);
-$desktop: new-breakpoint(min-width 786px 12);
-$tablet: new-breakpoint(min-width 480px 8);
-// $mobile: new-breakpoint(max-width 480px 4);
+@import "neat/neat"; // or "neat" when in Rails
 
 /* Fonts */
 @include font-face(BebasNeueRegular, '/fonts/BebasNeue-webfont');
