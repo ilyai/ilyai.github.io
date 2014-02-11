@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "AVD on Linux x64 w/ KVM"
-date: 2013-07-19 10:21:00
+date: 2014-02-11 23:21:00
 categories: android linux kvm
 ---
 
